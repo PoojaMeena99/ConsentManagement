@@ -1,0 +1,355 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.main-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.main_menu {
+    width: 68px;
+    background-color: #0b1536;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image {
+    /* width: 100%; */
+    height: 54px;
+    text-align: center;
+}
+
+.imageA {
+    height: 48px;
+    width: 100%;
+}
+
+.imageB {
+    height: 54px;
+}
+
+.imageC {
+    height: 46px;
+    width: 100%;
+    margin-bottom: 2px;
+}
+
+.imageD {
+    height: 58px;
+    width: 100%;
+}
+
+.text {
+    font-size: 10px;
+    color: #D9D9DD;
+    text-align: center;
+}
+
+#image1 {
+    height: 31.11px;
+    width: 28px;
+}
+
+#image2,
+#image3,
+#image4,
+#image6,
+#image7,
+#image8 {
+    width: 14.5px;
+}
+
+#image5 {
+    width: 15.37px;
+    height: 14.82px;
+}
+
+.container {
+    /* width: 1156px; */
+    /* border: 1px solid black; */
+}
+
+.form {
+    width: 567px;
+    height: 438px;
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-top: 120px;
+}
+
+.details_hading {
+    width: 203px;
+    height: 30px;
+    /* border: 1px solid black; */
+    margin: auto;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #050552CC;
+    white-space: nowrap;
+    margin-bottom: 24px;
+}
+
+.form_consent {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 384px;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    padding: 32px;
+    gap: 14px;
+}
+
+.label_text {
+    color: #05055299;
+    font-family: 'Inter';
+    size: 12px;
+    font-weight: 500;
+}
+
+.form_consent input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 317px;
+    height: 36px;
+    float: right;
+}
+
+.form_consent button {
+    background: #575fcf;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    width: 503px;
+    height: 36px;
+    /* cursor: pointer; */
+}
+
+.form_consent button:hover {
+    background: #4048b2;
+}
+
+.side_penal {
+    width: 216px;
+    padding: 12.25px;
+    /* border: 1px solid black; */
+    background-color: #0505521A;
+    padding: 24px 12.5px 24px 12px;
+}
+
+.penal_list {
+    height: 129px;
+    margin: 0px 12.25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.penal_item {
+    width: 191.5px;
+    height: 36px;
+    /* border: 1px solid gray; */
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.94px;
+    color: #050552CC;
+    align-items: center;
+    display: flex;
+}
+
+.penal_item_image {
+    align-items: center;
+}
+
+.User_collected_details {
+    border: 1px solid black;
+    width: 567px;
+    height: 696px;
+    margin: auto;
+    padding: 0 36px;
+}
+
+.email_section {
+    border: 1px solid black;
+    width: 100%;
+    /* height: 48px; */
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0px;
+}
+
+#logo {
+    width: 88.8px;
+
+}
+
+.email {
+    width: 394.2px;
+    height: 46px;
+    border: 1px solid black;
+}
+
+.email_name {
+    font-family: 'Inter';
+    font-weight: 600;
+    size: 16px;
+    line-height: 21px;
+}
+
+.version {
+    font-family: 'Inter';
+    font-weight: 400;
+    size: 14px;
+    line-height: 21px;
+    color: #05055299;
+}
+
+.email_details {
+    height: 210px;
+    border: 1px solid black;
+    /* margin: 24px 32px; */
+}
+
+.checkbox_div {
+    height: 87px;
+    border: 1px solid black;
+    /* display: flex;  
+    flex-direction: column; 
+    justify-content: space-between; */
+    border: 1px solid black;
+    margin-bottom: 36px;
+}
+
+.allow_infromation {
+    height: 146px;
+    /* border: 1px solid black; */
+    margin: 24px 0px 24px 0px;
+}
+
+.infromation {
+    height: 146px;
+    border: 1px solid black;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto';
+}
+
+.btn_div {
+    /* height: 36px; */
+    /* border: 1px solid red; */
+    height: 36px;
+    width: 503px;
+    /* margin: auto; */
+}
+
+.deny_btn {
+    height: 36px;
+    width: 245.5px;
+    border: 1px solid black;
+    background-color: #FFFFFF;
+    color: #444444;
+    float: left;
+    text-align: center;
+    border-radius: 6px;
+    border: 1px solid #0505521A;
+
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.allow_btn {
+    height: 36px;
+    width: 245.5px;
+    /* border: 1px solid black; */
+    color: #FFFFFF;
+    background-color: #554EF1;
+    float: right;
+    text-align: center;
+    border-radius: 6px;
+
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.color_change{
+    color:#554EF1;
+}
+.purpose_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid red;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Inter";
+    height: 87px;
+    margin-bottom: 163px;
+}
+
+.validate_token_box {
+    max-width: 567px;
+    /* height: 92px; */
+    /* border: 1px solid black; */
+    padding: 24px 32px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    filter: drop-shadow(0px 3px 7px rgba(0, 0, 0, 0.25));
+    margin: auto;
+    margin-top: 38px;
+
+}
+
+.input_div {
+    width: 503px;
+    height: 36px;
+    /* border: 1px solid black; */
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#token_value {
+    width: 408px;
+    height: 36px;
+    border: 1px solid #D9DBDD;
+    padding: 5.5px 12px;
+    border-radius: 6px;
+}
+
+::placeholder {
+    color: #333333;
+}
+
+.validation_button_div {
+    width: 503px;
+    height: 36px;
+    border: none;
+    background-color: #554EF1;
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 8px;
+}

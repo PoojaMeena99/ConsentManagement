@@ -1,0 +1,23 @@
+{
+  "name": "mcq-test",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fontsource/inria-sans": "^5.0.14",
+    "@fontsource/inter": "^5.1.1",
+    "@fontsource/josefin-sans": "^5.0.21",
+    "@fontsource/just-me-again-down-here": "^5.0.15",
+    "@next/font": "^14.2.8",
+    "inter-ui": "^4.1.0",
+    "next": "14.2.5",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-responsive": "^10.0.0"
+  }
+}
