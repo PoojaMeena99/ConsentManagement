@@ -1,0 +1,35 @@
+.details_page {
+    padding: 32px;
+    height: 589px;
+    border-top: 1px solid #E6E6E6;
+    overflow-y: auto;
+}
+
+button {
+    border: none;
+    background-color: #FFFFFF;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 36px;
+    align-items: center;
+}
+
+.col1 {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 14px;
+    color: #05055299;
+    text-align: left;
+}
+
+.col2 {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 14px;
+    color: #050552CC;
+    width: 200px;
+    text-align: left;
+}

@@ -1,0 +1,45 @@
+.side_penal {
+    width: 216px;
+    background-color: #0505521A;
+    padding-top: 24px;
+    padding-left: 12px;
+}
+
+.ConsentHeading {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 20px;
+    margin: 0px;
+    padding-bottom: 20px;
+}
+
+.penal_list {
+    margin: 0px 12.25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.penal_item {
+    width: 100%;
+    height: 36px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.94px;
+    color: #050552CC;
+    align-items: center;
+    display: flex;
+}
+
+.penal_item_image {
+    align-items: center;
+    padding-right: 3px;
+}
+
+.penal_item_image_1{
+    background-color: #554EF11A;
+    border:1px solid #05055214;
+    border-radius: 5px;
+}
